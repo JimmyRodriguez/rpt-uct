@@ -4,7 +4,7 @@ library(shiny)
 library(readxl)
 library(dplyr)
 library(lubridate)
-library(ggplot2)
+#library(ggplot2)
 library(DT)
 
 ui <- fluidPage(
