@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "locale": "es_ES",
+  "platform": "4.3.1",
+  "metadata": {
+    "appmode": "shiny"
+  },
+  "packages": [
+    {
+      "name": "shiny",
+      "version": "1.8.0"
+    },
+    {
+      "name": "readxl",
+      "version": "1.4.3"
+    },
+    {
+      "name": "dplyr",
+      "version": "1.1.4"
+    },
+    {
+      "name": "lubridate",
+      "version": "1.9.3"
+    },
+    {
+      "name": "ggplot2",
+      "version": "3.4.4"
+    },
+    {
+      "name": "DT",
+      "version": "0.31"
+    }
+  ],
+  "files": [
+    "app.R"
+  ]
+}
