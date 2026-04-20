@@ -1,5 +1,8 @@
 {
-  "version": 1,
+  "name": "reporte-activos-shiny",
+  "version": "1.0.0",
+  "description": "Aplicacion Shiny para analisis de portadores activos, con tabla y grafico de instalaciones por mes",
+  "main": "app.R",
   "locale": "es_ES",
   "platform": "4.3.1",
   "metadata": {
