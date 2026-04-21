@@ -1,10 +1,9 @@
-install.packages(c("shiny", "readxl", "dplyr", "lubridate", "ggplot2", "DT"))
 
 library(shiny)
 library(readxl)
 library(dplyr)
 library(lubridate)
-#library(ggplot2)
+library(ggplot2)
 library(DT)
 
 ui <- fluidPage(
@@ -60,7 +59,6 @@ server <- function(input, output, session) {
         Nombres,
         Apellidos,
         `Nombre Completo`,
-        `Fecha de Nacimiento`,
         `Fecha Instalacion`,
         `Fecha Desinstalacion`,
         Estado,
