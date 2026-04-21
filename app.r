@@ -1,7 +1,8 @@
 
 
-###############################DEPLOYMENT START######################################
 
+#APPLICACION
+install.packages(c("shiny", "readxl", "dplyr", "lubridate", "ggplot2", "DT"))
 
 library(shiny)
 library(readxl)
