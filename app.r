@@ -2,26 +2,6 @@
 
 ###############################DEPLOYMENT START######################################
 
-# Setear el directorio donde estan los archivos  (solo una vez)
-setwd("C:/Users/Jimmy S. Rodriguez/Documents/workspace/")
-
-#Instalar  (solo una vez)
-install.packages("rsconnect")
-
-
-library(rsconnect)
-rsconnect::setAccountInfo(name='buddi',
-                          token='13057CCF3137DC0C9B8BB5188471C99E',
-                          secret='lwlEzfA0mYUkKUzd6mhEDt5Mt2PJzoXOTLd1p2Iq')
-
-
-rsconnect::deployApp("rpt-rstudio-uct")
-
-#################################DEPLOYMENT END##############################
-
-
-#APPLICACION
-install.packages(c("shiny", "readxl", "dplyr", "lubridate", "ggplot2", "DT"))
 
 library(shiny)
 library(readxl)
